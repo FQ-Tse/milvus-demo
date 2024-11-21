@@ -1,6 +1,13 @@
 # milvus-demo
 Milvus Learning and Using
 
+## whole process
+Create vector database ->Create collection ->Insert data ->Add index to data fields ->Load collection ->Perform similarity query through search ->Output similar results
+
+## Insert data
+vectorization a large amount of data in the knowledge base through Embeddings, insert the vectorized data into sets, and divide them into different sets according to different development scenarios. When querying, the corresponding vector table can be found according to the scenario;
+Using the SDK of openAI, knowledge base text vectorization can be achieved.
+】
 
 ## The Core Differences Between Search and Query
 
