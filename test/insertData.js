@@ -18,6 +18,7 @@ async function insertData() {
                     0.8716926129208069, 0.5616972243831446,
                 ],
                 height: 20405,
+                age:1,
                 name: 'zlnmh',
             },
             {
@@ -27,6 +28,7 @@ async function insertData() {
                     0.795311915725105, 0.9183033261617566,
                 ],
                 height: 93773,
+                age:2,
                 name: '5lr9y',
             },
             {
@@ -36,6 +38,7 @@ async function insertData() {
                     0.8556140171597648, 0.4043893119391049,
                 ],
                 height: 85122,
+                age:3,
                 name: 'nes0j',
             },
             {
@@ -45,6 +48,7 @@ async function insertData() {
                     0.7576720055508186, 0.4393152967662368,
                 ],
                 height: 92037,
+                age:4,
                 name: 'ct2li',
             },
             {
@@ -54,6 +58,7 @@ async function insertData() {
                     0.22353556137796238, 0.38062799545615444,
                 ],
                 height: 31400,
+                age:5,
                 name: '6ghrg',
             },
             {
@@ -63,6 +68,7 @@ async function insertData() {
                     0.9529469158782906, 0.7692465408044873,
                 ],
                 height: 1778,
+                age:6,
                 name: 'sb7mt',
             },
         ];

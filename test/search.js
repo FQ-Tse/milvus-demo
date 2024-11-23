@@ -11,12 +11,12 @@ async function search() {
 
     await milvusClient.loadCollectionSync({ collection_name: 'sample_collection' });
 
-    const query = await milvusClient.search({
+    const search = await milvusClient.search({
         collection_name: 'sample_collection', // 查询的集合名
         vector: [1,2,3,4,5,6,7,8],            // 查询的目标向量
         filter: 'age > 0',                    // 过滤条件
         output_fields: ['name', 'age'],       // 返回的字段
-        limit: 5,                             // 返回的结果数量限制
+        limit: 5,                             // 返回的结果数量限制 topK K = 5
     });
 
     //  The smaller the result score, the higher the similarity
@@ -64,7 +64,7 @@ async function search() {
     // }
 
 
-    console.log('query result', query);
+    console.log('query result', search);
 
 }
 
